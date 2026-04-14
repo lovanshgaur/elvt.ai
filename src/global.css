@@ -25,3 +25,6 @@ img, picture, video, canvas, svg {
 input, button, textarea, select {
   font: inherit;
 }
+h1{
+  font-size: 4rem;
+}

@@ -1,4 +1,6 @@
-import './styles/header.css'
+import "./styles/header.css";
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <>
@@ -12,21 +14,21 @@ const Header = () => {
         </div>
         <div className="navbar">
           <div className="navbar-links">
-            <a href="" className="navbar-link">
+            <Link to="/" className="navbar-link">
               Dashboard
-            </a>
-            <a href="" className="navbar-link">
+            </Link>
+            <Link to="/analyzer" className="navbar-link">
               Resume Analyzer
-            </a>
-            <a href="" className="navbar-link">
+            </Link>
+            <Link to="/matcher" className="navbar-link">
               Job Matcher
-            </a>
-            <a href="" className="navbar-link">
+            </Link>
+            <Link to="/prep" className="navbar-link">
               Resume Prep
-            </a>
-            <a href="" className="navbar-link">
+            </Link>
+            <Link to="/ats" className="navbar-link">
               ATS Checker
-            </a>
+            </Link>
           </div>
         </div>
       </header>
