@@ -1,5 +1,5 @@
 import Header from "../components/Header"
-import SettingBtn from "../components/settingBtn"
+import SettingBtn from "../components/SettingBtn"
 
 const Prep = () => {
   return (
