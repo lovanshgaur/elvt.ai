@@ -9,22 +9,49 @@
   color: inherit;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.6;
   scroll-behavior: smooth;
+  background: #010101;
+  color: #f3f3f3;
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
 }
 
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
+  background: #f4f4f4;
+  color: #333;
 }
-h1{
+form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+}
+.output {
+  background: rgb(255, 255, 255);
+  color: red;
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 480px;
+  padding: 1rem 2rem;
+  margin: 1rem;
+}
+h1 {
   font-size: 4rem;
 }

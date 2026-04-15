@@ -10,6 +10,7 @@ const Header = () => {
           <div className="nav-icons">
             <div className="nav-icon nav-icons_portfolio">P</div>
             <div className="nav-icon nav-icons_github">G</div>
+            <div className="mode"></div>
           </div>
         </div>
         <div className="navbar">
